@@ -161,6 +161,10 @@
 		3BF4CF7F1C3B307D00B3D0A8 /* ConcatenatingLogFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BF4CF7D1C3B307D00B3D0A8 /* ConcatenatingLogFormatter.swift */; };
 		3BF4CF801C3B307D00B3D0A8 /* ConcatenatingLogFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BF4CF7D1C3B307D00B3D0A8 /* ConcatenatingLogFormatter.swift */; };
 		3BF4CF811C3B307D00B3D0A8 /* ConcatenatingLogFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BF4CF7D1C3B307D00B3D0A8 /* ConcatenatingLogFormatter.swift */; };
+		C7A94D6A1D2E4CB80083359A /* CleanroomASL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7A94D691D2E4CB80083359A /* CleanroomASL.framework */; };
+		C7A94D6C1D2E4CBD0083359A /* CleanroomASL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7A94D6B1D2E4CBD0083359A /* CleanroomASL.framework */; };
+		C7A94D6E1D2E4CC30083359A /* CleanroomASL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7A94D6D1D2E4CC30083359A /* CleanroomASL.framework */; };
+		C7A94D701D2E4CC80083359A /* CleanroomASL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7A94D6F1D2E4CC80083359A /* CleanroomASL.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -184,55 +188,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = 3B00E5991BA37A420011486D;
 			remoteInfo = "CleanroomLogger-tvOS";
-		};
-		C7A94D571D2E4ABB0083359A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = C7A94D231D2E445B0083359A /* CleanroomASL.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 3B00E55D1BA3782D0011486D;
-			remoteInfo = "CleanroomASL-iOS";
-		};
-		C7A94D591D2E4ABB0083359A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = C7A94D231D2E445B0083359A /* CleanroomASL.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 3B00E57C1BA379830011486D;
-			remoteInfo = "CleanroomASL-OSX";
-		};
-		C7A94D5B1D2E4ABB0083359A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = C7A94D231D2E445B0083359A /* CleanroomASL.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 3B00E59A1BA37A420011486D;
-			remoteInfo = "CleanroomASL-tvOS";
-		};
-		C7A94D5D1D2E4ABB0083359A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = C7A94D231D2E445B0083359A /* CleanroomASL.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 3B78C6CE1BA7634E00173EAC;
-			remoteInfo = "CleanroomASL-watchOS";
-		};
-		C7A94D5F1D2E4ABB0083359A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = C7A94D231D2E445B0083359A /* CleanroomASL.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 3B00E5671BA3782D0011486D;
-			remoteInfo = "CleanroomASLUnitTests-iOS";
-		};
-		C7A94D611D2E4ABB0083359A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = C7A94D231D2E445B0083359A /* CleanroomASL.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 3B00E5851BA379830011486D;
-			remoteInfo = "CleanroomASLUnitTests-OSX";
-		};
-		C7A94D631D2E4ABB0083359A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = C7A94D231D2E445B0083359A /* CleanroomASL.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 3B00E5A31BA37A420011486D;
-			remoteInfo = "CleanroomASLUnitTests-tvOS";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -304,7 +259,10 @@
 		3BDD486D1C3D974300B382F0 /* ReadableLogFormatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReadableLogFormatter.swift; sourceTree = "<group>"; };
 		3BF4CF751C3B306100B3D0A8 /* ColorizingLogFormatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorizingLogFormatter.swift; sourceTree = "<group>"; };
 		3BF4CF7D1C3B307D00B3D0A8 /* ConcatenatingLogFormatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConcatenatingLogFormatter.swift; sourceTree = "<group>"; };
-		C7A94D231D2E445B0083359A /* CleanroomASL.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CleanroomASL.xcodeproj; path = Carthage/Checkouts/CleanroomASL/CleanroomASL.xcodeproj; sourceTree = SOURCE_ROOT; };
+		C7A94D691D2E4CB80083359A /* CleanroomASL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CleanroomASL.framework; path = Carthage/Build/iOS/CleanroomASL.framework; sourceTree = "<group>"; };
+		C7A94D6B1D2E4CBD0083359A /* CleanroomASL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CleanroomASL.framework; path = Carthage/Build/Mac/CleanroomASL.framework; sourceTree = "<group>"; };
+		C7A94D6D1D2E4CC30083359A /* CleanroomASL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CleanroomASL.framework; path = Carthage/Build/tvOS/CleanroomASL.framework; sourceTree = "<group>"; };
+		C7A94D6F1D2E4CC80083359A /* CleanroomASL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CleanroomASL.framework; path = Carthage/Build/watchOS/CleanroomASL.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -312,6 +270,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7A94D6A1D2E4CB80083359A /* CleanroomASL.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -327,6 +286,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7A94D6C1D2E4CBD0083359A /* CleanroomASL.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -342,6 +302,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7A94D6E1D2E4CC30083359A /* CleanroomASL.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -357,6 +318,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7A94D701D2E4CC80083359A /* CleanroomASL.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,7 +379,6 @@
 		3B09A4D71BA9BC6A007406D1 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
-				C7A94D231D2E445B0083359A /* CleanroomASL.xcodeproj */,
 			);
 			name = Libraries;
 			sourceTree = "<group>";
@@ -514,21 +475,19 @@
 				3BACAC021BA9BB88009E7A3E /* Tests */,
 				3B00E4B91BA36B840011486D /* BuildControl */,
 				3B00E55E1BA3782D0011486D /* Products */,
+				C7A94D681D2E4CB80083359A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		C7A94D4E1D2E4ABA0083359A /* Products */ = {
+		C7A94D681D2E4CB80083359A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C7A94D581D2E4ABB0083359A /* CleanroomASL.framework */,
-				C7A94D5A1D2E4ABB0083359A /* CleanroomASL.framework */,
-				C7A94D5C1D2E4ABB0083359A /* CleanroomASL.framework */,
-				C7A94D5E1D2E4ABB0083359A /* CleanroomASL.framework */,
-				C7A94D601D2E4ABB0083359A /* CleanroomASLUnitTests.xctest */,
-				C7A94D621D2E4ABB0083359A /* CleanroomASLUnitTests.xctest */,
-				C7A94D641D2E4ABB0083359A /* CleanroomASLUnitTests.xctest */,
+				C7A94D6F1D2E4CC80083359A /* CleanroomASL.framework */,
+				C7A94D6D1D2E4CC30083359A /* CleanroomASL.framework */,
+				C7A94D6B1D2E4CBD0083359A /* CleanroomASL.framework */,
+				C7A94D691D2E4CB80083359A /* CleanroomASL.framework */,
 			);
-			name = Products;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -734,12 +693,6 @@
 			mainGroup = 3BCBACE11BA369AD007F1C90;
 			productRefGroup = 3B00E55E1BA3782D0011486D /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = C7A94D4E1D2E4ABA0083359A /* Products */;
-					ProjectRef = C7A94D231D2E445B0083359A /* CleanroomASL.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				3B00E55C1BA3782D0011486D /* CleanroomLogger-iOS */,
@@ -752,58 +705,6 @@
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		C7A94D581D2E4ABB0083359A /* CleanroomASL.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = CleanroomASL.framework;
-			remoteRef = C7A94D571D2E4ABB0083359A /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		C7A94D5A1D2E4ABB0083359A /* CleanroomASL.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = CleanroomASL.framework;
-			remoteRef = C7A94D591D2E4ABB0083359A /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		C7A94D5C1D2E4ABB0083359A /* CleanroomASL.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = CleanroomASL.framework;
-			remoteRef = C7A94D5B1D2E4ABB0083359A /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		C7A94D5E1D2E4ABB0083359A /* CleanroomASL.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = CleanroomASL.framework;
-			remoteRef = C7A94D5D1D2E4ABB0083359A /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		C7A94D601D2E4ABB0083359A /* CleanroomASLUnitTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = CleanroomASLUnitTests.xctest;
-			remoteRef = C7A94D5F1D2E4ABB0083359A /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		C7A94D621D2E4ABB0083359A /* CleanroomASLUnitTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = CleanroomASLUnitTests.xctest;
-			remoteRef = C7A94D611D2E4ABB0083359A /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		C7A94D641D2E4ABB0083359A /* CleanroomASLUnitTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = CleanroomASLUnitTests.xctest;
-			remoteRef = C7A94D631D2E4ABB0083359A /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		3B00E55B1BA3782D0011486D /* Resources */ = {
@@ -1104,6 +1005,10 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -1153,6 +1058,10 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -1282,6 +1191,10 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -1332,6 +1245,10 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -1455,6 +1372,10 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/tvOS",
+				);
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -1504,6 +1425,10 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/tvOS",
+				);
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -1627,6 +1552,10 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/watchOS",
+				);
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -1675,6 +1604,10 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/watchOS",
+				);
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
